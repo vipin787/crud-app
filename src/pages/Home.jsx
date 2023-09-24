@@ -5,7 +5,7 @@ const Home = () => {
     name: "",
     email: "",
   });
-  const [tableData, setTableData] = useState([]);
+  const [tableData, setTableData] = useState([]); 
   const [editClick, setEditClick] = useState(false);
   const [editIndex, setEditIndex] = useState("");
   const handleChange = (e) => {
